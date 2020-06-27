@@ -4,6 +4,7 @@ import '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/regenerator-runtim
 import { format } from 'url';
 import renderServer from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js';
 import { stripBasename, cheerio, handleHTML } from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js';
+import { IServerRender } from '@umijs/types';
 
 import { ApplyPluginsType, createMemoryHistory } from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/runtime';
 import { plugin } from './plugin';
@@ -35,35 +36,18 @@ plugin.applyPlugins({
   args: { routes },
 });
 
-
 // origin require module
 // https://github.com/webpack/webpack/issues/4175#issuecomment-342931035
 const requireFunc = typeof __webpack_require__ === "function" ? __non_webpack_require__ : require;
-
-export interface IParams {
-  path: string;
-  htmlTemplate?: string;
-  mountElementId?: string;
-  context?: object
-}
-
-export interface IRenderResult<T> {
-  rootContainer: T;
-  html?: T;
-  error?: Error;
-}
-
-export interface IRender<T = string> {
-  (params: IParams): Promise<IRenderResult<T>>;
-}
 
 /**
  * server render function
  * @param params
  */
-const render: IRender = async (params) => {
+const render: IServerRender = async (params) => {
   let error;
   const {
+    origin = '',
     path,
     htmlTemplate = '',
     mountElementId = 'root',
@@ -77,11 +61,11 @@ const render: IRender = async (params) => {
   let manifest = params.manifest;
   const env = 'development';
 
-  let html = htmlTemplate || "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    />\n    <link rel=\"stylesheet\" href=\"http://localhost:8000/umi.css\" />\n    <script>\n      window.routerBase = \"/\";\n    </script>\n    <script src=\"http://localhost:8000/@@/devScripts.js\"></script>\n    <script>\n      //! umi version: 3.2.3\n    </script>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n\n    <script src=\"http://localhost:8000/umi.js\"></script>\n  </body>\n</html>\n";
+  let html = htmlTemplate || "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    />\n    <link rel=\"stylesheet\" href=\"http://localhost:8000/umi.css\" />\n    <script>\n      window.routerBase = \"/\";\n    </script>\n    <script src=\"http://localhost:8000/@@/devScripts.js\"></script>\n    <script>\n      //! umi version: 3.2.5\n    </script>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n\n    <script src=\"http://localhost:8000/umi.js\"></script>\n  </body>\n</html>\n";
   let rootContainer = '';
   try {
     // handle basename
-    const location = stripBasename(basename, path);
+    const location = stripBasename(basename, `${origin}${path}`);
     const { pathname } = location;
     // server history
     const history = createMemoryHistory({
@@ -99,6 +83,7 @@ const render: IRender = async (params) => {
       plugin,
       staticMarkup,
       routes,
+      isServer: process.env.__IS_SERVER,
     }
     const dynamicImport =  false;
     if (dynamicImport && !manifest) {
@@ -107,6 +92,21 @@ const render: IRender = async (params) => {
         manifest = requireFunc(`./`);
       } catch (_) {}
     }
+
+    // beforeRenderServer hook, for polyfill global.*
+    await plugin.applyPlugins({
+      key: 'ssr.beforeRenderServer',
+      type: ApplyPluginsType.event,
+      args: {
+        env,
+        path,
+        context,
+        history,
+        mode,
+        location,
+      },
+      async: true,
+    });
 
     // renderServer get rootContainer
     const { pageHTML, pageInitialProps, routesMatched } = await renderServer(opts);

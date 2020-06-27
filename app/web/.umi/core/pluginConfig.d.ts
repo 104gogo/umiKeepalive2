@@ -77,8 +77,13 @@ export interface IConfigFromPlugins {
      */
     port?: number;
     host?: string;
-    https?: {} | boolean;
-    http2?: boolean;
+    https?:
+      | {
+          key?: string;
+          cert?: string;
+          [k: string]: any;
+        }
+      | boolean;
     headers?: {};
     writeToDisk?: boolean | (() => any);
     [k: string]: any;
