@@ -42,7 +42,7 @@ module.exports = (appInfo) => {
   };
 
   config.logger = {
-    dir: '/Users/yunfenqiu/github/my/umiKeepalive2/logs',
+    // dir: '/Users/yunfenqiu/github/my/umiKeepalive2/logs',
   };
 
   return config;
