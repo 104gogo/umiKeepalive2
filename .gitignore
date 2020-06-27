@@ -9,12 +9,19 @@
 
 # production
 /dist
+/dist.zip
 
 # misc
 .DS_Store
 
 # umi
-/src/.umi
-/src/.umi-production
-/src/.umi-test
-/.env.local
+.umi
+.umi-production
+
+# project
+/app/public/**
+
+run
+logs
+.idea
+yarn.lock
