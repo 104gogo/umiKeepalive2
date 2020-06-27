@@ -41,5 +41,9 @@ module.exports = (appInfo) => {
     csrf: false,
   };
 
+  config.logger = {
+    dir: '/Users/yunfenqiu/github/my/umiKeepalive2/logs',
+  };
+
   return config;
 };
