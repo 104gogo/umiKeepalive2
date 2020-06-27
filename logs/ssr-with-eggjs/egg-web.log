@@ -1,0 +1,461 @@
+2020-06-26 18:32:55,866 INFO 88712 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:32:55,897 INFO 88712 [egg-multipart] stream mode enable
+2020-06-26 18:32:55,937 INFO 88712 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:32:55,939 INFO 88712 [egg-security] use methodnoallow middleware
+2020-06-26 18:32:55,940 INFO 88712 [egg-security] use noopen middleware
+2020-06-26 18:32:55,940 INFO 88712 [egg-security] use nosniff middleware
+2020-06-26 18:32:55,941 INFO 88712 [egg-security] use xssProtection middleware
+2020-06-26 18:32:55,941 INFO 88712 [egg-security] use xframe middleware
+2020-06-26 18:32:55,942 INFO 88712 [egg-security] use dta middleware
+2020-06-26 18:32:55,942 INFO 88712 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:32:55,951 INFO 88712 [egg:core] dump config after load, 5ms
+2020-06-26 18:32:55,965 INFO 88712 [egg-watcher:application] watcher start success
+2020-06-26 18:32:55,973 INFO 88712 [egg:core] dump config after ready, 5ms
+2020-06-26 18:32:57,714 INFO 88718 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:32:57,740 INFO 88718 [egg-multipart] stream mode enable
+2020-06-26 18:32:57,777 INFO 88718 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:32:57,780 INFO 88718 [egg-security] use methodnoallow middleware
+2020-06-26 18:32:57,780 INFO 88718 [egg-security] use noopen middleware
+2020-06-26 18:32:57,781 INFO 88718 [egg-security] use nosniff middleware
+2020-06-26 18:32:57,781 INFO 88718 [egg-security] use xssProtection middleware
+2020-06-26 18:32:57,782 INFO 88718 [egg-security] use xframe middleware
+2020-06-26 18:32:57,782 INFO 88718 [egg-security] use dta middleware
+2020-06-26 18:32:57,782 INFO 88718 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:32:57,794 INFO 88718 [egg:core] dump config after load, 7ms
+2020-06-26 18:32:57,805 INFO 88718 [egg-watcher:application] watcher start success
+2020-06-26 18:32:57,814 INFO 88718 [egg:core] dump config after ready, 7ms
+2020-06-26 18:32:58,711 INFO 88719 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:32:58,739 INFO 88719 [egg-multipart] stream mode enable
+2020-06-26 18:32:58,779 INFO 88719 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:32:58,781 INFO 88719 [egg-security] use methodnoallow middleware
+2020-06-26 18:32:58,781 INFO 88719 [egg-security] use noopen middleware
+2020-06-26 18:32:58,782 INFO 88719 [egg-security] use nosniff middleware
+2020-06-26 18:32:58,782 INFO 88719 [egg-security] use xssProtection middleware
+2020-06-26 18:32:58,782 INFO 88719 [egg-security] use xframe middleware
+2020-06-26 18:32:58,783 INFO 88719 [egg-security] use dta middleware
+2020-06-26 18:32:58,783 INFO 88719 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:32:58,792 INFO 88719 [egg:core] dump config after load, 6ms
+2020-06-26 18:32:58,803 INFO 88719 [egg-watcher:application] watcher start success
+2020-06-26 18:32:58,813 INFO 88719 [egg:core] dump config after ready, 7ms
+2020-06-26 18:35:51,832 INFO 88786 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:35:51,856 INFO 88786 [egg-multipart] stream mode enable
+2020-06-26 18:35:51,893 INFO 88786 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:35:51,895 INFO 88786 [egg-security] use methodnoallow middleware
+2020-06-26 18:35:51,895 INFO 88786 [egg-security] use noopen middleware
+2020-06-26 18:35:51,895 INFO 88786 [egg-security] use nosniff middleware
+2020-06-26 18:35:51,896 INFO 88786 [egg-security] use xssProtection middleware
+2020-06-26 18:35:51,896 INFO 88786 [egg-security] use xframe middleware
+2020-06-26 18:35:51,896 INFO 88786 [egg-security] use dta middleware
+2020-06-26 18:35:51,896 INFO 88786 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:35:51,904 INFO 88786 [egg:core] dump config after load, 5ms
+2020-06-26 18:35:51,914 INFO 88786 [egg-watcher:application] watcher start success
+2020-06-26 18:35:51,922 INFO 88786 [egg:core] dump config after ready, 6ms
+2020-06-26 18:37:01,531 INFO 89244 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:37:01,557 INFO 89244 [egg-multipart] stream mode enable
+2020-06-26 18:37:01,593 INFO 89244 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:37:01,595 INFO 89244 [egg-security] use methodnoallow middleware
+2020-06-26 18:37:01,596 INFO 89244 [egg-security] use noopen middleware
+2020-06-26 18:37:01,596 INFO 89244 [egg-security] use nosniff middleware
+2020-06-26 18:37:01,597 INFO 89244 [egg-security] use xssProtection middleware
+2020-06-26 18:37:01,597 INFO 89244 [egg-security] use xframe middleware
+2020-06-26 18:37:01,597 INFO 89244 [egg-security] use dta middleware
+2020-06-26 18:37:01,597 INFO 89244 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:37:01,606 INFO 89244 [egg:core] dump config after load, 5ms
+2020-06-26 18:37:01,617 INFO 89244 [egg-watcher:application] watcher start success
+2020-06-26 18:37:01,625 INFO 89244 [egg:core] dump config after ready, 6ms
+2020-06-26 18:37:09,586 INFO 89273 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:37:09,612 INFO 89273 [egg-multipart] stream mode enable
+2020-06-26 18:37:09,649 INFO 89273 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:37:09,651 INFO 89273 [egg-security] use methodnoallow middleware
+2020-06-26 18:37:09,652 INFO 89273 [egg-security] use noopen middleware
+2020-06-26 18:37:09,652 INFO 89273 [egg-security] use nosniff middleware
+2020-06-26 18:37:09,652 INFO 89273 [egg-security] use xssProtection middleware
+2020-06-26 18:37:09,653 INFO 89273 [egg-security] use xframe middleware
+2020-06-26 18:37:09,653 INFO 89273 [egg-security] use dta middleware
+2020-06-26 18:37:09,653 INFO 89273 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:37:09,662 INFO 89273 [egg:core] dump config after load, 6ms
+2020-06-26 18:37:09,676 INFO 89273 [egg-watcher:application] watcher start success
+2020-06-26 18:37:09,684 INFO 89273 [egg:core] dump config after ready, 6ms
+2020-06-26 18:40:00,223 INFO 89304 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:40:00,251 INFO 89304 [egg-multipart] stream mode enable
+2020-06-26 18:40:00,290 INFO 89304 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:40:00,292 INFO 89304 [egg-security] use methodnoallow middleware
+2020-06-26 18:40:00,292 INFO 89304 [egg-security] use noopen middleware
+2020-06-26 18:40:00,293 INFO 89304 [egg-security] use nosniff middleware
+2020-06-26 18:40:00,293 INFO 89304 [egg-security] use xssProtection middleware
+2020-06-26 18:40:00,293 INFO 89304 [egg-security] use xframe middleware
+2020-06-26 18:40:00,293 INFO 89304 [egg-security] use dta middleware
+2020-06-26 18:40:00,293 INFO 89304 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:40:00,302 INFO 89304 [egg:core] dump config after load, 6ms
+2020-06-26 18:40:00,314 INFO 89304 [egg-watcher:application] watcher start success
+2020-06-26 18:40:00,321 INFO 89304 [egg:core] dump config after ready, 5ms
+2020-06-26 18:40:01,330 INFO 89305 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:40:01,358 INFO 89305 [egg-multipart] stream mode enable
+2020-06-26 18:40:01,396 INFO 89305 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:40:01,398 INFO 89305 [egg-security] use methodnoallow middleware
+2020-06-26 18:40:01,398 INFO 89305 [egg-security] use noopen middleware
+2020-06-26 18:40:01,399 INFO 89305 [egg-security] use nosniff middleware
+2020-06-26 18:40:01,399 INFO 89305 [egg-security] use xssProtection middleware
+2020-06-26 18:40:01,399 INFO 89305 [egg-security] use xframe middleware
+2020-06-26 18:40:01,400 INFO 89305 [egg-security] use dta middleware
+2020-06-26 18:40:01,400 INFO 89305 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:40:01,408 INFO 89305 [egg:core] dump config after load, 5ms
+2020-06-26 18:40:01,418 INFO 89305 [egg-watcher:application] watcher start success
+2020-06-26 18:40:01,425 INFO 89305 [egg:core] dump config after ready, 5ms
+2020-06-26 18:40:12,089 INFO 89336 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:40:12,117 INFO 89336 [egg-multipart] stream mode enable
+2020-06-26 18:40:12,154 INFO 89336 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:40:12,156 INFO 89336 [egg-security] use methodnoallow middleware
+2020-06-26 18:40:12,156 INFO 89336 [egg-security] use noopen middleware
+2020-06-26 18:40:12,157 INFO 89336 [egg-security] use nosniff middleware
+2020-06-26 18:40:12,157 INFO 89336 [egg-security] use xssProtection middleware
+2020-06-26 18:40:12,157 INFO 89336 [egg-security] use xframe middleware
+2020-06-26 18:40:12,158 INFO 89336 [egg-security] use dta middleware
+2020-06-26 18:40:12,158 INFO 89336 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:40:12,166 INFO 89336 [egg:core] dump config after load, 5ms
+2020-06-26 18:40:12,180 INFO 89336 [egg-watcher:application] watcher start success
+2020-06-26 18:40:12,187 INFO 89336 [egg:core] dump config after ready, 5ms
+2020-06-26 18:40:13,952 INFO 89343 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:40:13,978 INFO 89343 [egg-multipart] stream mode enable
+2020-06-26 18:40:14,015 INFO 89343 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:40:14,018 INFO 89343 [egg-security] use methodnoallow middleware
+2020-06-26 18:40:14,018 INFO 89343 [egg-security] use noopen middleware
+2020-06-26 18:40:14,018 INFO 89343 [egg-security] use nosniff middleware
+2020-06-26 18:40:14,019 INFO 89343 [egg-security] use xssProtection middleware
+2020-06-26 18:40:14,019 INFO 89343 [egg-security] use xframe middleware
+2020-06-26 18:40:14,019 INFO 89343 [egg-security] use dta middleware
+2020-06-26 18:40:14,019 INFO 89343 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:40:14,028 INFO 89343 [egg:core] dump config after load, 6ms
+2020-06-26 18:40:14,039 INFO 89343 [egg-watcher:application] watcher start success
+2020-06-26 18:40:14,047 INFO 89343 [egg:core] dump config after ready, 6ms
+2020-06-26 18:40:25,127 INFO 89361 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:40:25,152 INFO 89361 [egg-multipart] stream mode enable
+2020-06-26 18:40:25,188 INFO 89361 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:40:25,190 INFO 89361 [egg-security] use methodnoallow middleware
+2020-06-26 18:40:25,191 INFO 89361 [egg-security] use noopen middleware
+2020-06-26 18:40:25,191 INFO 89361 [egg-security] use nosniff middleware
+2020-06-26 18:40:25,191 INFO 89361 [egg-security] use xssProtection middleware
+2020-06-26 18:40:25,192 INFO 89361 [egg-security] use xframe middleware
+2020-06-26 18:40:25,192 INFO 89361 [egg-security] use dta middleware
+2020-06-26 18:40:25,192 INFO 89361 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:40:25,200 INFO 89361 [egg:core] dump config after load, 5ms
+2020-06-26 18:40:25,210 INFO 89361 [egg-watcher:application] watcher start success
+2020-06-26 18:40:25,217 INFO 89361 [egg:core] dump config after ready, 5ms
+2020-06-26 18:41:15,319 INFO 89389 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 18:41:15,350 INFO 89389 [egg-multipart] stream mode enable
+2020-06-26 18:41:15,392 INFO 89389 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 18:41:15,394 INFO 89389 [egg-security] use methodnoallow middleware
+2020-06-26 18:41:15,395 INFO 89389 [egg-security] use noopen middleware
+2020-06-26 18:41:15,395 INFO 89389 [egg-security] use nosniff middleware
+2020-06-26 18:41:15,395 INFO 89389 [egg-security] use xssProtection middleware
+2020-06-26 18:41:15,396 INFO 89389 [egg-security] use xframe middleware
+2020-06-26 18:41:15,396 INFO 89389 [egg-security] use dta middleware
+2020-06-26 18:41:15,396 INFO 89389 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 18:41:15,406 INFO 89389 [egg:core] dump config after load, 5ms
+2020-06-26 18:41:15,419 INFO 89389 [egg-watcher:application] watcher start success
+2020-06-26 18:41:15,426 INFO 89389 [egg:core] dump config after ready, 5ms
+2020-06-26 19:14:07,273 WARN 89389 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-26 20:58:46,894 WARN 89389 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-26 21:03:39,165 INFO 89639 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 21:03:39,192 INFO 89639 [egg-multipart] stream mode enable
+2020-06-26 21:03:39,238 INFO 89639 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 21:03:39,241 INFO 89639 [egg-security] use methodnoallow middleware
+2020-06-26 21:03:39,241 INFO 89639 [egg-security] use noopen middleware
+2020-06-26 21:03:39,242 INFO 89639 [egg-security] use nosniff middleware
+2020-06-26 21:03:39,242 INFO 89639 [egg-security] use xssProtection middleware
+2020-06-26 21:03:39,242 INFO 89639 [egg-security] use xframe middleware
+2020-06-26 21:03:39,242 INFO 89639 [egg-security] use dta middleware
+2020-06-26 21:03:39,242 INFO 89639 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 21:03:39,251 INFO 89639 [egg:core] dump config after load, 5ms
+2020-06-26 21:03:39,265 INFO 89639 [egg-watcher:application] watcher start success
+2020-06-26 21:03:39,272 INFO 89639 [egg:core] dump config after ready, 5ms
+2020-06-26 21:03:41,183 INFO 89652 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 21:03:41,208 INFO 89652 [egg-multipart] stream mode enable
+2020-06-26 21:03:41,245 INFO 89652 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 21:03:41,247 INFO 89652 [egg-security] use methodnoallow middleware
+2020-06-26 21:03:41,248 INFO 89652 [egg-security] use noopen middleware
+2020-06-26 21:03:41,248 INFO 89652 [egg-security] use nosniff middleware
+2020-06-26 21:03:41,248 INFO 89652 [egg-security] use xssProtection middleware
+2020-06-26 21:03:41,249 INFO 89652 [egg-security] use xframe middleware
+2020-06-26 21:03:41,249 INFO 89652 [egg-security] use dta middleware
+2020-06-26 21:03:41,249 INFO 89652 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 21:03:41,258 INFO 89652 [egg:core] dump config after load, 6ms
+2020-06-26 21:03:41,269 INFO 89652 [egg-watcher:application] watcher start success
+2020-06-26 21:03:41,278 INFO 89652 [egg:core] dump config after ready, 6ms
+2020-06-26 21:03:42,165 INFO 89653 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 21:03:42,191 INFO 89653 [egg-multipart] stream mode enable
+2020-06-26 21:03:42,227 INFO 89653 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 21:03:42,229 INFO 89653 [egg-security] use methodnoallow middleware
+2020-06-26 21:03:42,230 INFO 89653 [egg-security] use noopen middleware
+2020-06-26 21:03:42,230 INFO 89653 [egg-security] use nosniff middleware
+2020-06-26 21:03:42,230 INFO 89653 [egg-security] use xssProtection middleware
+2020-06-26 21:03:42,231 INFO 89653 [egg-security] use xframe middleware
+2020-06-26 21:03:42,231 INFO 89653 [egg-security] use dta middleware
+2020-06-26 21:03:42,231 INFO 89653 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 21:03:42,240 INFO 89653 [egg:core] dump config after load, 5ms
+2020-06-26 21:03:42,251 INFO 89653 [egg-watcher:application] watcher start success
+2020-06-26 21:03:42,259 INFO 89653 [egg:core] dump config after ready, 6ms
+2020-06-26 21:06:24,152 INFO 89828 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 21:06:24,184 INFO 89828 [egg-multipart] stream mode enable
+2020-06-26 21:06:24,226 INFO 89828 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 21:06:24,228 INFO 89828 [egg-security] use methodnoallow middleware
+2020-06-26 21:06:24,229 INFO 89828 [egg-security] use noopen middleware
+2020-06-26 21:06:24,230 INFO 89828 [egg-security] use nosniff middleware
+2020-06-26 21:06:24,230 INFO 89828 [egg-security] use xssProtection middleware
+2020-06-26 21:06:24,230 INFO 89828 [egg-security] use xframe middleware
+2020-06-26 21:06:24,231 INFO 89828 [egg-security] use dta middleware
+2020-06-26 21:06:24,231 INFO 89828 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 21:06:24,240 INFO 89828 [egg:core] dump config after load, 5ms
+2020-06-26 21:06:24,257 INFO 89828 [egg-watcher:application] watcher start success
+2020-06-26 21:06:24,265 INFO 89828 [egg:core] dump config after ready, 6ms
+2020-06-26 21:06:26,440 INFO 89834 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 21:06:26,467 INFO 89834 [egg-multipart] stream mode enable
+2020-06-26 21:06:26,503 INFO 89834 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 21:06:26,506 INFO 89834 [egg-security] use methodnoallow middleware
+2020-06-26 21:06:26,506 INFO 89834 [egg-security] use noopen middleware
+2020-06-26 21:06:26,506 INFO 89834 [egg-security] use nosniff middleware
+2020-06-26 21:06:26,507 INFO 89834 [egg-security] use xssProtection middleware
+2020-06-26 21:06:26,507 INFO 89834 [egg-security] use xframe middleware
+2020-06-26 21:06:26,507 INFO 89834 [egg-security] use dta middleware
+2020-06-26 21:06:26,507 INFO 89834 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 21:06:26,516 INFO 89834 [egg:core] dump config after load, 5ms
+2020-06-26 21:06:26,527 INFO 89834 [egg-watcher:application] watcher start success
+2020-06-26 21:06:26,537 INFO 89834 [egg:core] dump config after ready, 6ms
+2020-06-26 21:06:27,450 INFO 89835 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 21:06:27,478 INFO 89835 [egg-multipart] stream mode enable
+2020-06-26 21:06:27,516 INFO 89835 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 21:06:27,518 INFO 89835 [egg-security] use methodnoallow middleware
+2020-06-26 21:06:27,519 INFO 89835 [egg-security] use noopen middleware
+2020-06-26 21:06:27,519 INFO 89835 [egg-security] use nosniff middleware
+2020-06-26 21:06:27,519 INFO 89835 [egg-security] use xssProtection middleware
+2020-06-26 21:06:27,520 INFO 89835 [egg-security] use xframe middleware
+2020-06-26 21:06:27,520 INFO 89835 [egg-security] use dta middleware
+2020-06-26 21:06:27,520 INFO 89835 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 21:06:27,529 INFO 89835 [egg:core] dump config after load, 4ms
+2020-06-26 21:06:27,540 INFO 89835 [egg-watcher:application] watcher start success
+2020-06-26 21:06:27,548 INFO 89835 [egg:core] dump config after ready, 6ms
+2020-06-26 22:13:27,210 WARN 89835 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-26 22:19:13,213 WARN 89835 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-26 22:21:02,518 INFO 90435 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:21:02,543 INFO 90435 [egg-multipart] stream mode enable
+2020-06-26 22:21:02,594 INFO 90435 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:21:02,596 INFO 90435 [egg-security] use methodnoallow middleware
+2020-06-26 22:21:02,597 INFO 90435 [egg-security] use noopen middleware
+2020-06-26 22:21:02,597 INFO 90435 [egg-security] use nosniff middleware
+2020-06-26 22:21:02,598 INFO 90435 [egg-security] use xssProtection middleware
+2020-06-26 22:21:02,598 INFO 90435 [egg-security] use xframe middleware
+2020-06-26 22:21:02,598 INFO 90435 [egg-security] use dta middleware
+2020-06-26 22:21:02,599 INFO 90435 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:21:02,608 INFO 90435 [egg:core] dump config after load, 6ms
+2020-06-26 22:21:02,623 INFO 90435 [egg-watcher:application] watcher start success
+2020-06-26 22:21:02,631 INFO 90435 [egg:core] dump config after ready, 5ms
+2020-06-26 22:21:04,795 INFO 90437 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:21:04,853 INFO 90437 [egg-multipart] stream mode enable
+2020-06-26 22:21:04,912 INFO 90437 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:21:04,915 INFO 90437 [egg-security] use methodnoallow middleware
+2020-06-26 22:21:04,916 INFO 90437 [egg-security] use noopen middleware
+2020-06-26 22:21:04,917 INFO 90437 [egg-security] use nosniff middleware
+2020-06-26 22:21:04,917 INFO 90437 [egg-security] use xssProtection middleware
+2020-06-26 22:21:04,918 INFO 90437 [egg-security] use xframe middleware
+2020-06-26 22:21:04,918 INFO 90437 [egg-security] use dta middleware
+2020-06-26 22:21:04,918 INFO 90437 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:21:04,933 INFO 90437 [egg:core] dump config after load, 9ms
+2020-06-26 22:21:04,950 INFO 90437 [egg-watcher:application] watcher start success
+2020-06-26 22:21:04,964 INFO 90437 [egg:core] dump config after ready, 11ms
+2020-06-26 22:21:06,031 INFO 90445 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:21:06,058 INFO 90445 [egg-multipart] stream mode enable
+2020-06-26 22:21:06,098 INFO 90445 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:21:06,100 INFO 90445 [egg-security] use methodnoallow middleware
+2020-06-26 22:21:06,100 INFO 90445 [egg-security] use noopen middleware
+2020-06-26 22:21:06,101 INFO 90445 [egg-security] use nosniff middleware
+2020-06-26 22:21:06,101 INFO 90445 [egg-security] use xssProtection middleware
+2020-06-26 22:21:06,101 INFO 90445 [egg-security] use xframe middleware
+2020-06-26 22:21:06,101 INFO 90445 [egg-security] use dta middleware
+2020-06-26 22:21:06,101 INFO 90445 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:21:06,111 INFO 90445 [egg:core] dump config after load, 6ms
+2020-06-26 22:21:06,123 INFO 90445 [egg-watcher:application] watcher start success
+2020-06-26 22:21:06,133 INFO 90445 [egg:core] dump config after ready, 7ms
+2020-06-26 22:22:30,087 INFO 90479 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:22:30,122 INFO 90479 [egg-multipart] stream mode enable
+2020-06-26 22:22:30,161 INFO 90479 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:22:30,163 INFO 90479 [egg-security] use methodnoallow middleware
+2020-06-26 22:22:30,163 INFO 90479 [egg-security] use noopen middleware
+2020-06-26 22:22:30,163 INFO 90479 [egg-security] use nosniff middleware
+2020-06-26 22:22:30,164 INFO 90479 [egg-security] use xssProtection middleware
+2020-06-26 22:22:30,164 INFO 90479 [egg-security] use xframe middleware
+2020-06-26 22:22:30,164 INFO 90479 [egg-security] use dta middleware
+2020-06-26 22:22:30,164 INFO 90479 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:22:30,174 INFO 90479 [egg:core] dump config after load, 5ms
+2020-06-26 22:22:30,185 INFO 90479 [egg-watcher:application] watcher start success
+2020-06-26 22:22:30,193 INFO 90479 [egg:core] dump config after ready, 6ms
+2020-06-26 22:22:31,072 INFO 90481 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:22:31,108 INFO 90481 [egg-multipart] stream mode enable
+2020-06-26 22:22:31,178 INFO 90481 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:22:31,181 INFO 90481 [egg-security] use methodnoallow middleware
+2020-06-26 22:22:31,182 INFO 90481 [egg-security] use noopen middleware
+2020-06-26 22:22:31,183 INFO 90481 [egg-security] use nosniff middleware
+2020-06-26 22:22:31,183 INFO 90481 [egg-security] use xssProtection middleware
+2020-06-26 22:22:31,184 INFO 90481 [egg-security] use xframe middleware
+2020-06-26 22:22:31,184 INFO 90481 [egg-security] use dta middleware
+2020-06-26 22:22:31,184 INFO 90481 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:22:31,198 INFO 90481 [egg:core] dump config after load, 8ms
+2020-06-26 22:22:31,219 INFO 90481 [egg-watcher:application] watcher start success
+2020-06-26 22:22:31,231 INFO 90481 [egg:core] dump config after ready, 8ms
+2020-06-26 22:22:39,129 INFO 90491 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:22:39,167 INFO 90491 [egg-multipart] stream mode enable
+2020-06-26 22:22:39,243 INFO 90491 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:22:39,245 INFO 90491 [egg-security] use methodnoallow middleware
+2020-06-26 22:22:39,246 INFO 90491 [egg-security] use noopen middleware
+2020-06-26 22:22:39,246 INFO 90491 [egg-security] use nosniff middleware
+2020-06-26 22:22:39,247 INFO 90491 [egg-security] use xssProtection middleware
+2020-06-26 22:22:39,247 INFO 90491 [egg-security] use xframe middleware
+2020-06-26 22:22:39,248 INFO 90491 [egg-security] use dta middleware
+2020-06-26 22:22:39,248 INFO 90491 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:22:39,260 INFO 90491 [egg:core] dump config after load, 8ms
+2020-06-26 22:22:39,295 INFO 90491 [egg-watcher:application] watcher start success
+2020-06-26 22:22:39,320 INFO 90491 [egg:core] dump config after ready, 20ms
+2020-06-26 22:22:43,971 INFO 90500 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:22:43,999 INFO 90500 [egg-multipart] stream mode enable
+2020-06-26 22:22:44,046 INFO 90500 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:22:44,049 INFO 90500 [egg-security] use methodnoallow middleware
+2020-06-26 22:22:44,050 INFO 90500 [egg-security] use noopen middleware
+2020-06-26 22:22:44,050 INFO 90500 [egg-security] use nosniff middleware
+2020-06-26 22:22:44,051 INFO 90500 [egg-security] use xssProtection middleware
+2020-06-26 22:22:44,051 INFO 90500 [egg-security] use xframe middleware
+2020-06-26 22:22:44,052 INFO 90500 [egg-security] use dta middleware
+2020-06-26 22:22:44,052 INFO 90500 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:22:44,064 INFO 90500 [egg:core] dump config after load, 8ms
+2020-06-26 22:22:44,079 INFO 90500 [egg-watcher:application] watcher start success
+2020-06-26 22:22:44,089 INFO 90500 [egg:core] dump config after ready, 7ms
+2020-06-26 22:22:45,101 INFO 90502 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:22:45,145 INFO 90502 [egg-multipart] stream mode enable
+2020-06-26 22:22:45,199 INFO 90502 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:22:45,201 INFO 90502 [egg-security] use methodnoallow middleware
+2020-06-26 22:22:45,202 INFO 90502 [egg-security] use noopen middleware
+2020-06-26 22:22:45,203 INFO 90502 [egg-security] use nosniff middleware
+2020-06-26 22:22:45,204 INFO 90502 [egg-security] use xssProtection middleware
+2020-06-26 22:22:45,204 INFO 90502 [egg-security] use xframe middleware
+2020-06-26 22:22:45,205 INFO 90502 [egg-security] use dta middleware
+2020-06-26 22:22:45,205 INFO 90502 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:22:45,217 INFO 90502 [egg:core] dump config after load, 9ms
+2020-06-26 22:22:45,229 INFO 90502 [egg-watcher:application] watcher start success
+2020-06-26 22:22:45,239 INFO 90502 [egg:core] dump config after ready, 7ms
+2020-06-26 22:22:56,397 INFO 90514 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:22:56,434 INFO 90514 [egg-multipart] stream mode enable
+2020-06-26 22:22:56,485 INFO 90514 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:22:56,495 INFO 90514 [egg-security] use methodnoallow middleware
+2020-06-26 22:22:56,496 INFO 90514 [egg-security] use noopen middleware
+2020-06-26 22:22:56,497 INFO 90514 [egg-security] use nosniff middleware
+2020-06-26 22:22:56,497 INFO 90514 [egg-security] use xssProtection middleware
+2020-06-26 22:22:56,497 INFO 90514 [egg-security] use xframe middleware
+2020-06-26 22:22:56,498 INFO 90514 [egg-security] use dta middleware
+2020-06-26 22:22:56,498 INFO 90514 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:22:56,528 INFO 90514 [egg:core] dump config after load, 11ms
+2020-06-26 22:22:56,544 INFO 90514 [egg-watcher:application] watcher start success
+2020-06-26 22:22:56,557 INFO 90514 [egg:core] dump config after ready, 9ms
+2020-06-26 22:23:07,244 INFO 90523 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:23:07,273 INFO 90523 [egg-multipart] stream mode enable
+2020-06-26 22:23:07,316 INFO 90523 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:23:07,319 INFO 90523 [egg-security] use methodnoallow middleware
+2020-06-26 22:23:07,319 INFO 90523 [egg-security] use noopen middleware
+2020-06-26 22:23:07,320 INFO 90523 [egg-security] use nosniff middleware
+2020-06-26 22:23:07,320 INFO 90523 [egg-security] use xssProtection middleware
+2020-06-26 22:23:07,320 INFO 90523 [egg-security] use xframe middleware
+2020-06-26 22:23:07,321 INFO 90523 [egg-security] use dta middleware
+2020-06-26 22:23:07,321 INFO 90523 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:23:07,331 INFO 90523 [egg:core] dump config after load, 6ms
+2020-06-26 22:23:07,344 INFO 90523 [egg-watcher:application] watcher start success
+2020-06-26 22:23:07,353 INFO 90523 [egg:core] dump config after ready, 7ms
+2020-06-26 22:23:08,371 INFO 90525 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:23:08,449 INFO 90525 [egg-multipart] stream mode enable
+2020-06-26 22:23:08,499 INFO 90525 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:23:08,502 INFO 90525 [egg-security] use methodnoallow middleware
+2020-06-26 22:23:08,503 INFO 90525 [egg-security] use noopen middleware
+2020-06-26 22:23:08,503 INFO 90525 [egg-security] use nosniff middleware
+2020-06-26 22:23:08,504 INFO 90525 [egg-security] use xssProtection middleware
+2020-06-26 22:23:08,504 INFO 90525 [egg-security] use xframe middleware
+2020-06-26 22:23:08,504 INFO 90525 [egg-security] use dta middleware
+2020-06-26 22:23:08,504 INFO 90525 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:23:08,521 INFO 90525 [egg:core] dump config after load, 10ms
+2020-06-26 22:23:08,538 INFO 90525 [egg-watcher:application] watcher start success
+2020-06-26 22:23:08,551 INFO 90525 [egg:core] dump config after ready, 8ms
+2020-06-26 22:23:47,976 INFO 90598 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:23:48,002 INFO 90598 [egg-multipart] stream mode enable
+2020-06-26 22:23:48,038 INFO 90598 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:23:48,040 INFO 90598 [egg-security] use methodnoallow middleware
+2020-06-26 22:23:48,040 INFO 90598 [egg-security] use noopen middleware
+2020-06-26 22:23:48,041 INFO 90598 [egg-security] use nosniff middleware
+2020-06-26 22:23:48,041 INFO 90598 [egg-security] use xssProtection middleware
+2020-06-26 22:23:48,041 INFO 90598 [egg-security] use xframe middleware
+2020-06-26 22:23:48,041 INFO 90598 [egg-security] use dta middleware
+2020-06-26 22:23:48,041 INFO 90598 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:23:48,050 INFO 90598 [egg:core] dump config after load, 5ms
+2020-06-26 22:23:48,064 INFO 90598 [egg-watcher:application] watcher start success
+2020-06-26 22:23:48,071 INFO 90598 [egg:core] dump config after ready, 5ms
+2020-06-26 22:23:50,000 INFO 90604 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:23:50,026 INFO 90604 [egg-multipart] stream mode enable
+2020-06-26 22:23:50,065 INFO 90604 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:23:50,067 INFO 90604 [egg-security] use methodnoallow middleware
+2020-06-26 22:23:50,067 INFO 90604 [egg-security] use noopen middleware
+2020-06-26 22:23:50,068 INFO 90604 [egg-security] use nosniff middleware
+2020-06-26 22:23:50,068 INFO 90604 [egg-security] use xssProtection middleware
+2020-06-26 22:23:50,069 INFO 90604 [egg-security] use xframe middleware
+2020-06-26 22:23:50,069 INFO 90604 [egg-security] use dta middleware
+2020-06-26 22:23:50,069 INFO 90604 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:23:50,078 INFO 90604 [egg:core] dump config after load, 6ms
+2020-06-26 22:23:50,089 INFO 90604 [egg-watcher:application] watcher start success
+2020-06-26 22:23:50,097 INFO 90604 [egg:core] dump config after ready, 6ms
+2020-06-26 22:23:51,028 INFO 90605 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:23:51,056 INFO 90605 [egg-multipart] stream mode enable
+2020-06-26 22:23:51,095 INFO 90605 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:23:51,097 INFO 90605 [egg-security] use methodnoallow middleware
+2020-06-26 22:23:51,098 INFO 90605 [egg-security] use noopen middleware
+2020-06-26 22:23:51,098 INFO 90605 [egg-security] use nosniff middleware
+2020-06-26 22:23:51,099 INFO 90605 [egg-security] use xssProtection middleware
+2020-06-26 22:23:51,099 INFO 90605 [egg-security] use xframe middleware
+2020-06-26 22:23:51,099 INFO 90605 [egg-security] use dta middleware
+2020-06-26 22:23:51,099 INFO 90605 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:23:51,111 INFO 90605 [egg:core] dump config after load, 7ms
+2020-06-26 22:23:51,123 INFO 90605 [egg-watcher:application] watcher start success
+2020-06-26 22:23:51,131 INFO 90605 [egg:core] dump config after ready, 6ms
+2020-06-26 22:24:33,055 INFO 90683 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:24:33,081 INFO 90683 [egg-multipart] stream mode enable
+2020-06-26 22:24:33,116 INFO 90683 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:24:33,118 INFO 90683 [egg-security] use methodnoallow middleware
+2020-06-26 22:24:33,118 INFO 90683 [egg-security] use noopen middleware
+2020-06-26 22:24:33,119 INFO 90683 [egg-security] use nosniff middleware
+2020-06-26 22:24:33,119 INFO 90683 [egg-security] use xssProtection middleware
+2020-06-26 22:24:33,119 INFO 90683 [egg-security] use xframe middleware
+2020-06-26 22:24:33,120 INFO 90683 [egg-security] use dta middleware
+2020-06-26 22:24:33,120 INFO 90683 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:24:33,128 INFO 90683 [egg:core] dump config after load, 5ms
+2020-06-26 22:24:33,141 INFO 90683 [egg-watcher:application] watcher start success
+2020-06-26 22:24:33,149 INFO 90683 [egg:core] dump config after ready, 6ms
+2020-06-26 22:24:35,017 INFO 90689 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:24:35,043 INFO 90689 [egg-multipart] stream mode enable
+2020-06-26 22:24:35,080 INFO 90689 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:24:35,082 INFO 90689 [egg-security] use methodnoallow middleware
+2020-06-26 22:24:35,082 INFO 90689 [egg-security] use noopen middleware
+2020-06-26 22:24:35,082 INFO 90689 [egg-security] use nosniff middleware
+2020-06-26 22:24:35,083 INFO 90689 [egg-security] use xssProtection middleware
+2020-06-26 22:24:35,083 INFO 90689 [egg-security] use xframe middleware
+2020-06-26 22:24:35,083 INFO 90689 [egg-security] use dta middleware
+2020-06-26 22:24:35,083 INFO 90689 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:24:35,092 INFO 90689 [egg:core] dump config after load, 5ms
+2020-06-26 22:24:35,105 INFO 90689 [egg-watcher:application] watcher start success
+2020-06-26 22:24:35,112 INFO 90689 [egg:core] dump config after ready, 5ms
+2020-06-26 22:24:36,040 INFO 90690 [egg:logger] init all loggers with options: {"dir":"/Users/yunfenqiu/github/my/umiKeepalive2/logs/ssr-with-eggjs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ssr-with-eggjs-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-26 22:24:36,069 INFO 90690 [egg-multipart] stream mode enable
+2020-06-26 22:24:36,112 INFO 90690 [egg-static] starting static serve /public/ -> /Users/yunfenqiu/github/my/umiKeepalive2/app/public
+2020-06-26 22:24:36,114 INFO 90690 [egg-security] use methodnoallow middleware
+2020-06-26 22:24:36,114 INFO 90690 [egg-security] use noopen middleware
+2020-06-26 22:24:36,115 INFO 90690 [egg-security] use nosniff middleware
+2020-06-26 22:24:36,115 INFO 90690 [egg-security] use xssProtection middleware
+2020-06-26 22:24:36,115 INFO 90690 [egg-security] use xframe middleware
+2020-06-26 22:24:36,116 INFO 90690 [egg-security] use dta middleware
+2020-06-26 22:24:36,116 INFO 90690 [egg-security] compose 6 middlewares into one security middleware
+2020-06-26 22:24:36,126 INFO 90690 [egg:core] dump config after load, 7ms
+2020-06-26 22:24:36,140 INFO 90690 [egg-watcher:application] watcher start success
+2020-06-26 22:24:36,149 INFO 90690 [egg:core] dump config after ready, 7ms
+2020-06-27 10:20:39,707 WARN 90690 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-27 10:20:39,940 WARN 90690 [ClusterClient:Watcher] follower closed, and try to init it again

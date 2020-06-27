@@ -1,0 +1,121 @@
+2020-06-26 18:35:57,307 ERROR 88786 [-/::1/-/7ms GET /home] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../public/umi.server'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at HomeController.index (/Users/yunfenqiu/github/my/umiKeepalive2/app/controller/home.js:9:20)
+    at Object.callFn (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/koa-compose/index.js:44:32)
+code: "MODULE_NOT_FOUND"
+name: "MODULE_NOT_FOUNDError"
+pid: 88786
+hostname: Yunfens-MacBook-Pro.local
+
+2020-06-26 18:35:59,442 ERROR 88786 [-/::1/-/0ms GET /home] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../public/umi.server'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at HomeController.index (/Users/yunfenqiu/github/my/umiKeepalive2/app/controller/home.js:9:20)
+    at Object.callFn (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/koa-compose/index.js:44:32)
+code: "MODULE_NOT_FOUND"
+name: "MODULE_NOT_FOUNDError"
+pid: 88786
+hostname: Yunfens-MacBook-Pro.local
+
+2020-06-26 18:38:09,370 ERROR 89271 [egg-view-assets] Run "umi dev" failed after 60s
+2020-06-26 18:40:05,502 ERROR 89305 [-/::1/-/9ms GET /home] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../public/umi.server'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at HomeController.index (/Users/yunfenqiu/github/my/umiKeepalive2/app/controller/home.js:9:20)
+    at Object.callFn (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/koa-compose/index.js:44:32)
+code: "MODULE_NOT_FOUND"
+name: "MODULE_NOT_FOUNDError"
+pid: 89305
+hostname: Yunfens-MacBook-Pro.local
+
+2020-06-26 18:40:41,645 ERROR 89361 [-/::1/-/6ms GET /home] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../public/umi.server'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at HomeController.index (/Users/yunfenqiu/github/my/umiKeepalive2/app/controller/home.js:9:20)
+    at Object.callFn (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/koa-compose/index.js:44:32)
+code: "MODULE_NOT_FOUND"
+name: "MODULE_NOT_FOUNDError"
+pid: 89361
+hostname: Yunfens-MacBook-Pro.local
+
+2020-06-26 18:40:43,089 ERROR 89361 [-/::1/-/1ms GET /home] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../public/umi.server'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at HomeController.index (/Users/yunfenqiu/github/my/umiKeepalive2/app/controller/home.js:9:20)
+    at Object.callFn (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/koa-compose/index.js:44:32)
+code: "MODULE_NOT_FOUND"
+name: "MODULE_NOT_FOUNDError"
+pid: 89361
+hostname: Yunfens-MacBook-Pro.local
+
+2020-06-26 19:14:07,272 ERROR 89334 nodejs.ClusterClientNoResponseError: client no response in 1851816ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 89334
+hostname: Yunfens-MacBook-Pro.local
+
+2020-06-26 20:58:46,894 ERROR 89334 nodejs.ClusterClientNoResponseError: client no response in 6279617ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 89334
+hostname: Yunfens-MacBook-Pro.local
+
+2020-06-26 22:13:27,212 ERROR 89826 nodejs.ClusterClientNoResponseError: client no response in 2399362ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 89826
+hostname: Yunfens-MacBook-Pro.local
+
+2020-06-26 22:19:13,213 ERROR 89826 nodejs.ClusterClientNoResponseError: client no response in 277752ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 89826
+hostname: Yunfens-MacBook-Pro.local
+
+2020-06-27 10:20:39,885 ERROR 90680 nodejs.ClusterClientNoResponseError: client no response in 27864072ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ClusterClientNoResponseError"
+pid: 90680
+hostname: Yunfens-MacBook-Pro.local
+

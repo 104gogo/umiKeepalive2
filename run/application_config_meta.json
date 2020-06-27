@@ -1,0 +1,363 @@
+{
+  "keys": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+  "middleware": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+  "i18n": {
+    "defaultLocale": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+    "dirs": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-i18n/config/config.default.js"
+  },
+  "view": {
+    "defaultViewEngine": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+    "mapping": {
+      ".html": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js"
+    },
+    "root": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view/config/config.default.js"
+  },
+  "assets": {
+    "publicPath": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+    "devServer": {
+      "debug": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+      "command": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+      "port": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+      "env": {
+        "APP_ROOT": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+        "BROWSER": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+        "ESLINT": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+        "SOCKET_SERVER": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+        "PUBLIC_PATH": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js"
+      },
+      "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js",
+      "autoPort": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js",
+      "portPath": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js",
+      "timeout": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js",
+      "waitStart": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js"
+    },
+    "isLocalOrUnittest": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js",
+    "url": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js",
+    "templatePath": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js",
+    "templateViewEngine": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js",
+    "crossorigin": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js",
+    "contextKey": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js",
+    "dynamicLocalIP": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-assets/config/config.default.js"
+  },
+  "security": {
+    "csrf": "/Users/yunfenqiu/github/my/umiKeepalive2/config/config.default.js",
+    "domainWhiteList": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-onerror/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "name": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "private": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "start": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "build": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "postinstall": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "prettier": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "test": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "test:coverage": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    },
+    "gitHooks": {
+      "pre-commit": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    },
+    "lint-staged": {
+      "*.{js,jsx,less,md,json}": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "*.ts?(x)": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@ant-design/icons": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "@stomp/stompjs": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "@stripe/react-stripe-js": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "@stripe/stripe-js": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "@umijs/hooks": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "@umijs/preset-react": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "ali-oss": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "antd": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "axios": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "better-scroll": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "draft-js": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "egg": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "egg-alinode": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "egg-view-assets": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "isomorphic-fetch": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "js-audio-recorder": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "path-to-regexp": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "prop-types": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "qs": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "rc-dialog": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "rc-upload": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-copy-to-clipboard": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-cropper": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-google-recaptcha-v3": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-id-swiper": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-infinite-scroller": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-intl": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-lazyload": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-photo-view": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-quill": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-virtualized": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "react-youtube": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "swiper": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "umi-plugin-keep-alive": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "umi-request": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "url": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "whatwg-fetch": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "zlib": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    },
+    "peerDependencies": {
+      "umi": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@babel/node": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "@types/qs": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "@umijs/fabric": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "autod": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "babel-plugin-dva-hmr": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "http-proxy-middleware": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "koa2-connect": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "husky": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "prettier": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "lint-staged": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "redbox-react": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "shelljs": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "umi": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "xlsx": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "zip-local": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "strict": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "depth": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "env": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "level": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "logging": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "port": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/egg/config/config.default.js"
+}
