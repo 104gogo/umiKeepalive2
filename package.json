@@ -88,7 +88,6 @@
     "redbox-react": "^1.5.0",
     "shelljs": "^0.8.4",
     "umi": "^3.2.5",
-    "umi-plugin-keep-alive": "^0.0.1-beta.10",
     "webstorm-disable-index": "^1.2.0",
     "xlsx": "^0.15.6",
     "zip-local": "^0.3.4"
