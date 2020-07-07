@@ -286,6 +286,7 @@ var render = /*#__PURE__*/function () {
             pageInitialProps = _yield$renderServer.pageInitialProps;
             routesMatched = _yield$renderServer.routesMatched;
             rootContainer = pageHTML;
+            console.log('pageHTML', pageHTML);
 
             if (!html) {
               _context.next = 26;

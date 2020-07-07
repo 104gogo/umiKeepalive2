@@ -20,7 +20,7 @@ import { ApplyPluginsType } from 'umi';
 import { history, plugin } from '../core/umiExports';
             
 import { message, notification } from 'antd';
-import useUmiRequest from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/use-request';
+import useUmiRequest, { UseRequestProvider } from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@ahooksjs/use-request';
 import {
   BaseOptions,
   BasePaginatedOptions,
@@ -36,7 +36,7 @@ import {
   PaginatedOptionsWithFormat,
   PaginatedParams,
   PaginatedResult,
-} from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/use-request/lib/types';
+} from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@ahooksjs/use-request/lib/types';
 
 type ResultWithData<T = any> = { data: T; [key: string]: any };
 
@@ -271,4 +271,4 @@ const request: RequestMethodInUmi = (url: any, options: any) => {
   return requestMethod(url, options);
 };
 
-export { request, useRequest };
+export { request, useRequest, UseRequestProvider };

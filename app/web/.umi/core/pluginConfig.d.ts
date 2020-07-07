@@ -174,6 +174,7 @@ export interface IConfigFromPlugins {
   targets?: {};
   terserOptions?: {};
   theme?: {};
+  runtimeHistory?: {};
   favicon?: string;
   headScripts?: any[];
   links?: any[];

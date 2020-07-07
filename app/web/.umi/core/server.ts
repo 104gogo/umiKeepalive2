@@ -61,7 +61,7 @@ const render: IServerRender = async (params) => {
   let manifest = params.manifest;
   const env = 'development';
 
-  let html = htmlTemplate || "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    />\n    <link rel=\"stylesheet\" href=\"http://localhost:8000/umi.css\" />\n    <script>\n      window.routerBase = \"/\";\n    </script>\n    <script src=\"http://localhost:8000/@@/devScripts.js\"></script>\n    <script>\n      //! umi version: 3.2.5\n    </script>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n\n    <script src=\"http://localhost:8000/umi.js\"></script>\n  </body>\n</html>\n";
+  let html = htmlTemplate || "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    />\n    <link rel=\"stylesheet\" href=\"http://localhost:8000/umi.css\" />\n    <script>\n      window.routerBase = \"/\";\n    </script>\n    <script src=\"http://localhost:8000/@@/devScripts.js\"></script>\n    <script>\n      //! umi version: 3.2.8\n    </script>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n\n    <script src=\"http://localhost:8000/umi.js\"></script>\n  </body>\n</html>\n";
   let rootContainer = '';
   try {
     // handle basename
@@ -111,6 +111,8 @@ const render: IServerRender = async (params) => {
     // renderServer get rootContainer
     const { pageHTML, pageInitialProps, routesMatched } = await renderServer(opts);
     rootContainer = pageHTML;
+    console.log('rootContainer', rootContainer);
+
     if (html) {
       // plugin for modify html template
       html = await plugin.applyPlugins({

@@ -17,6 +17,7 @@ class HomeController extends Controller {
     });
 
     ctx.logger.info(33333)
+    ctx.logger.error(err)
 
     if (err) {
       ctx.status = 404;
