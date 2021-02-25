@@ -1,0 +1,29 @@
+.virtualizedList {
+  :global {
+    .ant-list-split .ant-list-item {
+      border: none !important;
+    }
+
+    .ant-list-item {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0;
+    }
+
+    .ant-list-empty-text {
+      padding: 0;
+    }
+  }
+}
+
+.noMoreData {
+  font-size: 12px;
+  color: #c4c3e6;
+}
+.noMoreWrapper {
+  color: #000;
+  &::before,
+  &::after {
+    border-color: #686787 !important;
+  }
+}

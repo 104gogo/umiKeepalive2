@@ -4,7 +4,7 @@ let ssr = {};
 if (process.env.__IS_SERVER) {
   ssr = {
     modifyServerHTML: (html, { cheerio }) => {
-      const { Helmet } = require('/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/react-helmet');
+      const { Helmet } = require('/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_react-helmet@6.1.0@react-helmet');
       const helmet = Helmet.renderStatic();
       if (!helmet) return html;
       const title = helmet.title.toString();

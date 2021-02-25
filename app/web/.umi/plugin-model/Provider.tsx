@@ -1,13 +1,13 @@
 // @ts-nocheck
 import React from 'react';
-import initialState from '/Users/yunfenqiu/github/my/umiKeepalive2/app/web/.umi/plugin-initial-state/models/initialState';
+import initialState from '/Users/zhangxiaotian/github/my/umiKeepalive2/app/web/.umi/plugin-initial-state/models/initialState';
 
 // @ts-ignore
-import Dispatcher from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/plugin-model/lib/helpers/dispatcher';
+import Dispatcher from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_plugin-model@2.5.6@@umijs/plugin-model/lib/helpers/dispatcher';
 // @ts-ignore
-import Executor from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/plugin-model/lib/helpers/executor';
+import Executor from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_plugin-model@2.5.6@@umijs/plugin-model/lib/helpers/executor';
 // @ts-ignore
-import { UmiContext } from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/plugin-model/lib/helpers/constant';
+import { UmiContext } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_plugin-model@2.5.6@@umijs/plugin-model/lib/helpers/constant';
 
 export const models = { '@@initialState': initialState,  };
 

@@ -1,15 +1,28 @@
 // @ts-nocheck
-import { ApplyPluginsType } from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/runtime';
+import React from 'react';
+import { ApplyPluginsType } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_runtime@3.3.9@@umijs/runtime';
+import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
-const routes = [
+export function getRoutes() {
+  const routes = [
   {
     "path": "/",
     "component": require('@/layouts').default,
     "routes": [
       {
-        "path": "/home/detail",
+        "path": "/",
+        "redirect": "/home",
+        "exact": true
+      },
+      {
+        "path": "/detail",
         "component": require('@/pages/detail').default,
+        "exact": true
+      },
+      {
+        "path": "/tagList",
+        "component": require('@/pages/tagList').default,
         "exact": true
       },
       {
@@ -21,11 +34,12 @@ const routes = [
   }
 ];
 
-// allow user to extend routes
-plugin.applyPlugins({
-  key: 'patchRoutes',
-  type: ApplyPluginsType.event,
-  args: { routes },
-});
+  // allow user to extend routes
+  plugin.applyPlugins({
+    key: 'patchRoutes',
+    type: ApplyPluginsType.event,
+    args: { routes },
+  });
 
-export { routes };
+  return routes;
+}

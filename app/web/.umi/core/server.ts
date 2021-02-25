@@ -1,40 +1,14 @@
 // @ts-nocheck
 // umi.server.js
-import '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/regenerator-runtime/runtime.js';
+import '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_regenerator-runtime@0.13.5@regenerator-runtime/runtime.js';
 import { format } from 'url';
-import renderServer from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js';
-import { stripBasename, cheerio, handleHTML } from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js';
+import renderServer from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_preset-built-in@3.3.9@@umijs/preset-built-in/lib/plugins/features/ssr/templates/renderServer/renderServer.js';
+import { stripBasename, cheerio, handleHTML } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_preset-built-in@3.3.9@@umijs/preset-built-in/lib/plugins/features/ssr/templates/utils.js';
 import { IServerRender } from '@umijs/types';
 
-import { ApplyPluginsType, createMemoryHistory } from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/runtime';
+import { ApplyPluginsType, createMemoryHistory } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_runtime@3.3.9@@umijs/runtime';
 import { plugin } from './plugin';
-
-// 主要为后面支持按需服务端渲染，单独用 routes 会全编译
-const routes = [
-  {
-    "path": "/",
-    "component": require('@/layouts').default,
-    "routes": [
-      {
-        "path": "/home/detail",
-        "component": require('@/pages/detail').default,
-        "exact": true
-      },
-      {
-        "path": "/home",
-        "component": require('@/pages/home').default,
-        "exact": true
-      }
-    ]
-  }
-];
-
-// allow user to extend routes
-plugin.applyPlugins({
-  key: 'patchRoutes',
-  type: ApplyPluginsType.event,
-  args: { routes },
-});
+import './pluginRegister';
 
 // origin require module
 // https://github.com/webpack/webpack/issues/4175#issuecomment-342931035
@@ -56,12 +30,13 @@ const render: IServerRender = async (params) => {
     basename = '/',
     staticMarkup = false,
     forceInitial = false,
+    removeWindowInitialProps = false,
     getInitialPropsCtx,
   } = params;
   let manifest = params.manifest;
   const env = 'development';
 
-  let html = htmlTemplate || "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    />\n    <link rel=\"stylesheet\" href=\"http://localhost:8000/umi.css\" />\n    <script>\n      window.routerBase = \"/\";\n    </script>\n    <script src=\"http://localhost:8000/@@/devScripts.js\"></script>\n    <script>\n      //! umi version: 3.2.8\n    </script>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n\n    <script src=\"http://localhost:8000/umi.js\"></script>\n  </body>\n</html>\n";
+  let html = htmlTemplate || "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"utf-8\" \u002F\u003E\n    \u003Cmeta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"\n    \u002F\u003E\n    \u003Clink rel=\"stylesheet\" href=\"http:\u002F\u002Flocalhost:8000\u002Fumi.css\" \u002F\u003E\n    \u003Cscript\u003E\n      window.routerBase = \"\u002F\";\n    \u003C\u002Fscript\u003E\n    \u003Cscript src=\"http:\u002F\u002Flocalhost:8000\u002F@@\u002FdevScripts.js\"\u003E\u003C\u002Fscript\u003E\n    \u003Cscript\u003E\n      \u002F\u002F! umi version: 3.3.9\n    \u003C\u002Fscript\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E\n    \u003Cdiv id=\"root\"\u003E\u003C\u002Fdiv\u003E\n\n    \u003Cscript src=\"http:\u002F\u002Flocalhost:8000\u002Fumi.js\"\u003E\u003C\u002Fscript\u003E\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E\n";
   let rootContainer = '';
   try {
     // handle basename
@@ -71,6 +46,63 @@ const render: IServerRender = async (params) => {
     const history = createMemoryHistory({
       initialEntries: [format(location)],
     });
+    /**
+     * beforeRenderServer hook, for polyfill global.*
+     */
+    await plugin.applyPlugins({
+      key: 'ssr.beforeRenderServer',
+      type: ApplyPluginsType.event,
+      args: {
+        env,
+        path,
+        context,
+        history,
+        mode,
+        location,
+      },
+      async: true,
+    });
+
+    /**
+     * routes init and patch only once
+     * beforeRenderServer must before routes init avoding require error
+     */
+    // 主要为后面支持按需服务端渲染，单独用 routes 会全编译
+    const routes = [
+  {
+    "path": "/",
+    "component": require('@/layouts').default,
+    "routes": [
+      {
+        "path": "/",
+        "redirect": "/home",
+        "exact": true
+      },
+      {
+        "path": "/detail",
+        "component": require('@/pages/detail').default,
+        "exact": true
+      },
+      {
+        "path": "/tagList",
+        "component": require('@/pages/tagList').default,
+        "exact": true
+      },
+      {
+        "path": "/home",
+        "component": require('@/pages/home').default,
+        "exact": true
+      }
+    ]
+  }
+];
+    // allow user to extend routes
+    plugin.applyPlugins({
+      key: 'patchRoutes',
+      type: ApplyPluginsType.event,
+      args: { routes },
+    });
+
     // for renderServer
     const opts = {
       path,
@@ -92,27 +124,9 @@ const render: IServerRender = async (params) => {
         manifest = requireFunc(`./`);
       } catch (_) {}
     }
-
-    // beforeRenderServer hook, for polyfill global.*
-    await plugin.applyPlugins({
-      key: 'ssr.beforeRenderServer',
-      type: ApplyPluginsType.event,
-      args: {
-        env,
-        path,
-        context,
-        history,
-        mode,
-        location,
-      },
-      async: true,
-    });
-
     // renderServer get rootContainer
     const { pageHTML, pageInitialProps, routesMatched } = await renderServer(opts);
     rootContainer = pageHTML;
-    console.log('rootContainer', rootContainer);
-
     if (html) {
       // plugin for modify html template
       html = await plugin.applyPlugins({
@@ -128,7 +142,7 @@ const render: IServerRender = async (params) => {
         },
         async: true,
       });
-      html = await handleHTML({ html, rootContainer, pageInitialProps, mountElementId, mode, forceInitial, routesMatched, dynamicImport, manifest });
+      html = await handleHTML({ html, rootContainer, pageInitialProps, mountElementId, mode, forceInitial, removeWindowInitialProps, routesMatched, dynamicImport, manifest });
     }
   } catch (e) {
     // downgrade into csr

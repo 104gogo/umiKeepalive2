@@ -1,12 +1,17 @@
 // @ts-nocheck
-import { IRouteComponentProps } from 'umi'
+import { IRouteComponentProps } from 'umi';
 
 // only export isBrowser for user
-export { isBrowser } from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@umijs/utils/lib/ssr.js';
+export { isBrowser } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_utils@3.3.9@@umijs/utils/lib/ssr.js';
 
-interface IParams extends Pick<IRouteComponentProps, 'match'> {
+interface IParams<Params> extends Pick<IRouteComponentProps<Params>, 'match'> {
   isServer: Boolean;
   [k: string]: any;
 }
 
-export type IGetInitialProps<T = any> = (params: IParams) => Promise<T>;
+export type IGetInitialProps<
+  T = any,
+  Params extends {
+    [K in keyof Params]?: string;
+  } = {}
+> = (params: IParams<Params>) => Promise<T>;

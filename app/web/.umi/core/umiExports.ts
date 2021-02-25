@@ -1,5 +1,5 @@
 // @ts-nocheck
-export { history, setCreateHistoryOptions } from './history';
+export { history } from './history';
 export { plugin } from './plugin';
 export * from '../core/ssr/clientExports';
 export * from '../plugin-initial-state/exports';

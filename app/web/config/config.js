@@ -8,7 +8,9 @@ export default defineConfig({
       path: `/`,
       component: '@/layouts',
       routes: [
-        { path: '/home/detail', component: '@/pages/detail' },
+        { path: '/', redirect: '/home' },
+        { path: '/detail', component: '@/pages/detail' },
+        { path: '/tagList', component: '@/pages/tagList' },
         { path: '/home', component: '@/pages/home' },
       ]
     },

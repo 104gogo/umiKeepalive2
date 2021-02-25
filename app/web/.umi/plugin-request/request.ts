@@ -1,6 +1,6 @@
 // @ts-nocheck
 /**
- * Base on https://github.com/umijs//Users/yunfenqiu/github/my/umiKeepalive2/node_modules/umi-request
+ * Base on https://github.com/umijs//Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_umi-request@1.3.5@umi-request
  */
 import {
   extend,
@@ -13,14 +13,16 @@ import {
   RequestResponse,
   RequestInterceptor,
   ResponseInterceptor,
-} from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/umi-request';
+} from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_umi-request@1.3.5@umi-request';
 // @ts-ignore
 
 import { ApplyPluginsType } from 'umi';
 import { history, plugin } from '../core/umiExports';
             
-import { message, notification } from 'antd';
-import useUmiRequest, { UseRequestProvider } from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@ahooksjs/use-request';
+// decoupling with antd UI library, you can using `alias` modify the ui methods
+// @ts-ignore
+import { message, notification } from '@umijs/plugin-request/lib/ui';
+import useUmiRequest, { UseRequestProvider } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@ahooksjs_use-request@2.8.3@@ahooksjs/use-request';
 import {
   BaseOptions,
   BasePaginatedOptions,
@@ -36,9 +38,9 @@ import {
   PaginatedOptionsWithFormat,
   PaginatedParams,
   PaginatedResult,
-} from '/Users/yunfenqiu/github/my/umiKeepalive2/node_modules/@ahooksjs/use-request/lib/types';
+} from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@ahooksjs_use-request@2.8.3@@ahooksjs/use-request/lib/types';
 
-type ResultWithData<T = any> = { data: T; [key: string]: any };
+type ResultWithData<T = any> = { data?: T; [key: string]: any };
 
 function useRequest<
   R = any,
@@ -58,7 +60,7 @@ function useRequest<R extends LoadMoreFormatReturn = any, RR = any>(
   options: LoadMoreOptionsWithFormat<R, RR>,
 ): LoadMoreResult<R>;
 function useRequest<
-  R extends ResultWithData<LoadMoreFormatReturn> = any,
+  R extends ResultWithData<LoadMoreFormatReturn | any> = any,
   RR extends R = any
 >(
   service: CombineService<R, LoadMoreParams<R['data']>>,
