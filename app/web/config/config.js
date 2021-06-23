@@ -34,4 +34,7 @@ export default defineConfig({
     type: 'none', // node_modules 下的文件不走 babel 编译
     exclude: [],
   },
+  mfsu: {},
+  webpack5: {},
+  dynamicImport: {},
 });

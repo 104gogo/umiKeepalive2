@@ -7,7 +7,7 @@ import VirtualizedList from '@/components/VirtualizedList';
 
 import styles from './index.less';
 
-window.home = {
+const globalData = {
   loadedRowsMap: {},
   startIndex: 0,
   cache: new CellMeasurerCache({
@@ -26,16 +26,16 @@ export default () => {
         className={styles.card}
         style={{ height: data.height }}
         onClick={() => {
-          drop('tagList');
+          // drop('tagList');
 
-          window.tagList = {
-            loadedRowsMap: {},
-            startIndex: 0,
-            cache: new CellMeasurerCache({
-              fixedWidth: true,
-              minHeight: 170,
-            }),
-          };
+          // window.tagList = {
+          //   loadedRowsMap: {},
+          //   startIndex: 0,
+          //   cache: new CellMeasurerCache({
+          //     fixedWidth: true,
+          //     minHeight: 170,
+          //   }),
+          // };
           setTimeout(() => {
             history.push('/tagList');
           }, 0);
@@ -53,7 +53,7 @@ export default () => {
         <div id="container" className={styles.content}>
           <div className={styles.block} />
           {/* <AntdList renderItem={renderItem} /> */}
-          <VirtualizedList renderItem={renderItem} globalKey="home" />
+          <VirtualizedList renderItem={renderItem} globalData={globalData} />
         </div>
       </KeepAlive>
     </div>

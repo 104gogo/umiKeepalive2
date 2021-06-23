@@ -1,6 +1,6 @@
 // @ts-nocheck
 /**
- * Base on https://github.com/umijs//Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_umi-request@1.3.5@umi-request
+ * Base on https://github.com/umijs//Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_umi-request@1.3.9@umi-request
  */
 import {
   extend,
@@ -13,7 +13,7 @@ import {
   RequestResponse,
   RequestInterceptor,
   ResponseInterceptor,
-} from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_umi-request@1.3.5@umi-request';
+} from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_umi-request@1.3.9@umi-request';
 // @ts-ignore
 
 import { ApplyPluginsType } from 'umi';
@@ -22,7 +22,7 @@ import { history, plugin } from '../core/umiExports';
 // decoupling with antd UI library, you can using `alias` modify the ui methods
 // @ts-ignore
 import { message, notification } from '@umijs/plugin-request/lib/ui';
-import useUmiRequest, { UseRequestProvider } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@ahooksjs_use-request@2.8.3@@ahooksjs/use-request';
+import useUmiRequest, { UseRequestProvider } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@ahooksjs_use-request@2.8.7@@ahooksjs/use-request';
 import {
   BaseOptions,
   BasePaginatedOptions,
@@ -38,7 +38,7 @@ import {
   PaginatedOptionsWithFormat,
   PaginatedParams,
   PaginatedResult,
-} from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@ahooksjs_use-request@2.8.3@@ahooksjs/use-request/lib/types';
+} from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@ahooksjs_use-request@2.8.7@@ahooksjs/use-request/lib/types';
 
 type ResultWithData<T = any> = { data?: T; [key: string]: any };
 
@@ -46,7 +46,7 @@ function useRequest<
   R = any,
   P extends any[] = any,
   U = any,
-  UU extends U = any
+  UU extends U = any,
 >(
   service: CombineService<R, P>,
   options: OptionsWithFormat<R, P, U, UU>,
@@ -61,7 +61,7 @@ function useRequest<R extends LoadMoreFormatReturn = any, RR = any>(
 ): LoadMoreResult<R>;
 function useRequest<
   R extends ResultWithData<LoadMoreFormatReturn | any> = any,
-  RR extends R = any
+  RR extends R = any,
 >(
   service: CombineService<R, LoadMoreParams<R['data']>>,
   options: LoadMoreOptions<RR['data']>,
@@ -149,7 +149,7 @@ const getRequestMethod = () => {
   });
 
   const errorAdaptor =
-    requestConfig.errorConfig?.adaptor || (resData => resData);
+    requestConfig.errorConfig?.adaptor || ((resData) => resData);
 
   requestMethodInstance = extend({
     errorHandler: (error: RequestError) => {
@@ -237,17 +237,17 @@ const getRequestMethod = () => {
 
   // Add user custom middlewares
   const customMiddlewares = requestConfig.middlewares || [];
-  customMiddlewares.forEach(mw => {
+  customMiddlewares.forEach((mw) => {
     requestMethodInstance.use(mw);
   });
 
   // Add user custom interceptors
   const requestInterceptors = requestConfig.requestInterceptors || [];
   const responseInterceptors = requestConfig.responseInterceptors || [];
-  requestInterceptors.map(ri => {
+  requestInterceptors.map((ri) => {
     requestMethodInstance.interceptors.request.use(ri);
   });
-  responseInterceptors.map(ri => {
+  responseInterceptors.map((ri) => {
     requestMethodInstance.interceptors.response.use(ri);
   });
 

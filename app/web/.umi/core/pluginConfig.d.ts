@@ -1,6 +1,7 @@
 // Created by Umi Plugin
 
 export interface IConfigFromPlugins {
+"404"?: boolean
 routes?: {
 /**
  * Any valid URL path
@@ -170,6 +171,17 @@ publicPath?: ""
 basePath?: string
 writeToFileEmit?: boolean
 }
+/**
+ * open mfsu feature
+ */
+mfsu?: {
+development?: {
+output?: string
+}
+production?: {
+output?: string
+}
+}
 mountElementId?: ""
 mpa?: {
 
@@ -224,6 +236,16 @@ theme?: {
 runtimeHistory?: {
 
 }
+webpack5?: {
+lazyCompilation?: {
+entries?: boolean
+imports?: boolean
+test?: any
+}
+}
+workerLoader?: {
+
+}
 favicon?: string
 headScripts?: any[]
 links?: any[]
@@ -243,6 +265,10 @@ config?: {
 }
 dva?: {
 disableModelsReExport?: boolean
+/**
+ * lazy load dva model avoiding the import modules from umi undefined
+ */
+lazyLoad?: boolean
 extraModels?: string[]
 hmr?: boolean
 immer?: (boolean | {

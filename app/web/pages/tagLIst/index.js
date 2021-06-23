@@ -7,7 +7,7 @@ import VirtualizedList from '@/components/VirtualizedList';
 
 import styles from './index.less';
 
-window.tagList = {
+const globalData = {
   loadedRowsMap: {},
   startIndex: 0,
   cache: new CellMeasurerCache({
@@ -51,7 +51,7 @@ export default () => {
         <div id="container" className={styles.content}>
           <div className={styles.block} />
           {/* <AntdList renderItem={renderItem} /> */}
-          <VirtualizedList renderItem={renderItem} globalKey="tagList" />
+          <VirtualizedList renderItem={renderItem} globalData={globalData} />
         </div>
       </KeepAlive>
     </div>

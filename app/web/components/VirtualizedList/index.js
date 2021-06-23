@@ -20,10 +20,10 @@ const getRandomInt = (min, max) => {
 }
 
 const VirtualizedList = (props) => {
-  const { renderItem, globalKey } = props;
+  const { renderItem, globalData } = props;
   const [list, setList] = useState([]);
   const [_, setRandomKey] = useState(Math.random);
-console.log('globalKey, ', window[globalKey]);
+console.log('globalData', globalData);
   useActivate(() => {
     setRandomKey(Math.random);
     console.log('TestFunction: didActivate');
@@ -38,7 +38,7 @@ console.log('globalKey, ', window[globalKey]);
     () => {
       const data = new Array(20)
         .fill({})
-        .map((item, index) => ({ ...item, id: window[globalKey].startIndex++, height: getRandomInt(170, 500) }));
+        .map((item, index) => ({ ...item, id: globalData.startIndex++, height: getRandomInt(170, 500) }));
 
       return new Promise(resolve => setTimeout(() => resolve(data), 1000));
     },
@@ -54,20 +54,20 @@ console.log('globalKey, ', window[globalKey]);
     if (loading) return;
 
     for (let i = startIndex; i <= stopIndex; i++) {
-      window[globalKey].loadedRowsMap[i] = 1; // 1 means loading
+      globalData.loadedRowsMap[i] = 1; // 1 means loading
     }
 
     run();
   };
 
-  const isRowLoaded = ({ index }) => !!window[globalKey].loadedRowsMap[index];
+  const isRowLoaded = ({ index }) => !!globalData.loadedRowsMap[index];
 
   const renderRow = ({ index, key, parent, style }) => {
     const item = list[index];
 
     return (
       <CellMeasurer
-        cache={window[globalKey].cache}
+        cache={globalData.cache}
         columnIndex={0}
         key={key}
         rowIndex={index}
@@ -95,7 +95,7 @@ console.log('globalKey, ', window[globalKey]);
       onScroll={onChildScroll}
       overscanRowCount={0}
       rowCount={list.length}
-      rowHeight={window[globalKey].cache.rowHeight}
+      rowHeight={globalData.cache.rowHeight}
       rowRenderer={renderRow}
       onRowsRendered={onRowsRendered}
       scrollTop={scrollTop}

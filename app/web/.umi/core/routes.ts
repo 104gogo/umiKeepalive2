@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_runtime@3.3.9@@umijs/runtime';
+import { ApplyPluginsType, dynamic } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_runtime@3.5.0-beta.8@@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
@@ -8,7 +8,7 @@ export function getRoutes() {
   const routes = [
   {
     "path": "/",
-    "component": require('@/layouts').default,
+    "component": dynamic({ loader: () => import(/* webpackChunkName: 'layouts' */'@/layouts')}),
     "routes": [
       {
         "path": "/",
@@ -17,17 +17,17 @@ export function getRoutes() {
       },
       {
         "path": "/detail",
-        "component": require('@/pages/detail').default,
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__detail' */'@/pages/detail')}),
         "exact": true
       },
       {
         "path": "/tagList",
-        "component": require('@/pages/tagList').default,
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__tagList' */'@/pages/tagList')}),
         "exact": true
       },
       {
         "path": "/home",
-        "component": require('@/pages/home').default,
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'p__home' */'@/pages/home')}),
         "exact": true
       }
     ]

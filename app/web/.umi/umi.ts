@@ -4,8 +4,8 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_runtime@3.3.9@@umijs/runtime';
-import { renderClient } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_renderer-react@3.3.9@@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_runtime@3.5.0-beta.8@@umijs/runtime';
+import { renderClient } from '/Users/zhangxiaotian/github/my/umiKeepalive2/node_modules/_@umijs_renderer-react@3.5.0-beta.8@@umijs/renderer-react';
 import { getRoutes } from './core/routes';
 
 
@@ -24,6 +24,7 @@ const getClientRender = (args: { hot?: boolean; routes?: any[] } = {}) => plugin
         history: createHistory(args.hot),
         isServer: process.env.__IS_SERVER,
         ssrProps: {},
+        dynamicImport: true,
         rootElement: 'root',
       },
     });
@@ -37,7 +38,7 @@ export default clientRender();
 
 
     window.g_umi = {
-      version: '3.3.9',
+      version: '3.5.0-beta.8',
     };
   
 
